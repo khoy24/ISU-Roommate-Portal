@@ -88,3 +88,62 @@ function loadCarouselImages(data){
     } 
 } 
 
+function getHalls() {
+    fetch("./data.json")
+    .then(response => response.json())
+    .then(halls => loadImages(halls, 1))
+    .catch(err => console.log("error: " + err))
+    // console.log(halls);
+}
+
+function loadImages(Images, n) {
+    const imageArray = [];
+
+    //if loading residence halls
+    if (n === 1) {
+    Images.Halls.forEach(hall => {
+        imageArray.push(
+            hall
+        )
+    });
+    }
+
+    console.log(imageArray);
+
+    var Card = document.getElementById("col");
+
+    for (var i = 0; i < imageArray.length; i++) {
+        let name = imageArray[i].Name;
+        let Price = imageArray[i].Price;
+        let AirConditioned = imageArray[i].AirConditioned;
+        let OpenDuringWinterBreak = imageArray[i].OpenDuringWinterBreak;
+        let Eligibility = imageArray[i].Eligibility;
+        let URL = imageArray[i].URL;
+        let description = imageArray[i].Description;
+        let AddCard = document.createElement("div");
+        AddCard.classList.add("col");
+        AddCard.innerHTML = `
+        <div class="card shadow-sm">
+        <img src=${URL} class="card-img-top" alt="..."></img>
+        <div class="card-body">
+        <p class="card-text"> <strong>${name}</strong>, $${Price} <br>
+        Air Conditioned: ${AirConditioned}<br>
+        Open for Winter Break: ${OpenDuringWinterBreak} <br>
+        <button id="${name}">button</button> 
+        <p style="display: none;">${description}</p>
+        </div>
+        </div>
+        `;
+        Card.appendChild(AddCard);
+    }
+}
+
+if ($('body').is('.housing')){
+    let temp = document.querySelectorAll('.button');
+
+    temp.forEach((item) => {
+        item.addEventListener('click', () => {
+            console.log(item.id);
+        })
+    });
+}
