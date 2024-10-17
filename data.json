@@ -1,0 +1,184 @@
+{
+    "Halls": [
+        {
+            "Name": "Barton",
+            "Price": 5178,
+            "AirConditioned": "No",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Barton.jpg",
+            "Description": "Barton is part of the Barton-Lyon-Freeman (BLF) community. The building has common space to hang out in and a stocked kitchenette on the first floor. Residents also have access to the Roberts Hall Cyber Lounge. You can relax at Cornerstone Hall Desk and challenge your roommates to a game of pool or ping pong. The diverse students, diverse experiences, classic collegiate architecture and access to everything on campus make BLF the ideal residence hall experience for you!"
+        },
+        {
+            "Name": "Birch",
+            "Price": 5178,
+            "AirConditioned": "No",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Birch.jpg",
+            "Description": "Birch is part of the Birch-Welch-Roberts (BWR) community and is located in the heart of campus. Whether you’re looking for a study partner, goalie for your intramural soccer team, a mentor, role model or friend, you’ll find it all in BWR. Students here know how to balance fun with academics and they get to do it all in buildings that are close to everything and offer classic collegiate architecture."
+        },
+        {
+            "Name": "Buchanan",
+            "Price": 6854,
+            "AirConditioned": "Yes",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Buchanan.jpg",
+            "Description": "Buchanan Hall is a suite-style building. Single suites have two single rooms that share a full bathroom (two people) or two double rooms that share a full bathroom (four people). With large dens and kitchenettes, there is plenty of space to hangout and study. The building also has a large main floor lounge."
+        },
+        {
+            "Name": "Eaton",
+            "Price": 6854,
+            "AirConditioned": "Yes",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Eaton.jpg",
+            "Description": "Eaton Hall offers suite-style living where two double rooms are connected by a common bathroom (toilet and shower). Sinks are in each room. A common lounge is on the main level with kitchenettes, dens and study spaces on every floor. Eaton is also substance free. This means that alcohol, tobacco and other drugs are prohibited in this hall regardless of the age of the student. "
+        },
+        {
+            "Name": "Elm",
+            "Price": 5178,
+            "AirConditioned": "No",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Elm.jpg",
+            "Description": "Whether you’re looking for a study partner, goalie for your intramural soccer team, a mentor, role model or friend, you’ll find it all in Elm.  Close to everything on campus, including a dining center right in your building, makes Elm the ideal residence hall experience for you!"
+        },
+        {
+            "Name": "Freeman",
+            "Price": 5178,
+            "AirConditioned": "No",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Freeman.jpg",
+            "Description": "Freeman Hall is gender inclusive and is designed to provide a supportive housing option to students of all gender identities. This is an on-campus residence option that gives students of all genders and gender expressions the opportunity to live together. Gender-Inclusive Housing (GIH) facilities, room assignments, and programming support gender diversity. All students are welcome to live in GIH. Driven by student demand, one of the intentions of GIH is to help students find a truly compatible roommate, so roommate pairs may be of any gender. This option is not intended for romantic partners who wish to live together."
+        },
+        {
+            "Name": "Friley",
+            "Price": 5178,
+            "AirConditioned": "Partial",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Friley.jpg",
+            "Description": "There is a lot to love about Friley! As one of the largest residence halls in the nation and a strong core of returning students, Friley is a great place to call home while you’re at Iowa State. You’re sure to meet people, have plenty to keep your social life full and you’ll also find a strong focus on academics. Lincoln, Palmer, Pennell and Stange houses in Friley are substance free. This means that alcohol, tobacco and other drugs are prohibited in these houses regardless of the age of the student. Friley’s location is a major plus in a lot of student’s minds. State Gym and Beyer Hall offer plenty of recreation options (swimming, climbing wall, weights, basketball courts and more) just around the corner. There’s also our fast-casual burger joint, a Starbucks and two dining centers, including Windows on the first floor, all within minutes of each other."
+        },
+        {
+            "Name": "Geoffroy",
+            "Price": 6854,
+            "AirConditioned": "Yes",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Geoffroy.jpg",
+            "Description": "Our newest residence hall, Geoffroy (pronounced Joe-free) features seven floors of living space. Each floor has two houses – male and female – connected by a ‘front porch.’ This area has floor to ceiling windows that provide beautiful views of the Iowa State campus. Each house has two bathrooms. Sinks are in one area with fully-enclosed toilet rooms and fully-enclosed individual shower rooms that have a place for changing. The first floor is the hub of activity for Geoffroy. It features more than 15 study rooms, a lounge, kitchen, computer lab and a large activity room with projection screen, gaming system, pool table and plenty of soft seating to hang out and relax with your friends. Geoffroy was designed to LEED Gold standards and features an energy efficient mechanical system, water efficient plumbing fixtures, LED lighting, regional construction materials and low emitting materials to promote indoor air quality."
+        },
+        {
+            "Name": "Helser",
+            "Price": 5178,
+            "AirConditioned": "No",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Helser.jpg",
+            "Description": "If you talk to a Helser alum, you’ll learn that this community is a fantastic place to meet people. Located in the heart of the Union Drive neighborhood, Helser is right next door to to State Gym (indoor pool!), two dining centers and a Starbucks. In 2019, rooms in Helser Hall received a complete face lift – all new flooring, lighting, paint and furniture!"
+        },
+        {
+            "Name": "Larch",
+            "Price": 5588,
+            "AirConditioned": "Yes",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Larch.jpg",
+            "Description": "Larch is a fantastic open door environment where making friends is easy. You’re close to the Lied Rec Center, Jack Trice, Hilton, Cy Ride stops and we have Seasons Dining in our commons and Conversations just across the street. As a Larch resident, you have access to the rec room, computer labs and all of the other great community and study spaces in the commons plus a large main floor lounge right in Larch."
+        },
+        {
+            "Name": "Linden",
+            "Price": 5178,
+            "AirConditioned": "No",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Linden.jpg",
+            "Description": "Linden is a dining plan optional building, which means you don’t need to purchase a meal plan. However, you can still buy one if you’d like. When you step into Linden, you’ll immediately feel at home. Our welcoming main floor living area is great for groups to gather and for studying. With spacious rooms and residents who take pride in their community, there’s always something going one! Movies, hall and house events, meeting up with brother/sister floors and of course, studying, are things you’ll find when you make Linden your Cyclone home."
+        },
+        {
+            "Name": "Lyon",
+            "Price": 5178,
+            "AirConditioned": "No",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Lyon.jpg",
+            "Description": "Lyon is part of the Barton-Lyon-Freeman (BLF) community. The building has common space to hang out in and residents have access to the Roberts Hall Cyber Lounge and kitchenette. You can relax at Cornerstone Hall Desk and challenge your roommates to a game of pool or ping pong. The diverse students, diverse experiences, classic collegiate architecture and access to everything on campus make BLF the ideal residence hall experience for you!"
+        },
+        {
+            "Name": "Maple",
+            "Price": 5588,
+            "AirConditioned": "yes",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Maple.jpg",
+            "Description": "With sinks in each room and semi-private bathrooms, Maple offers the perfect combination of community and privacy. Over 500 residents call Maple home and create a welcoming community for everyone. Maple has a large main floor lounge and the Maple-Willow-Larch Commons has Seasons dining, East Side Market, a computer lab, game room and plenty of places to hang out or study. Maple is also substance free. This means that alcohol, tobacco and other drugs are prohibited in this hall regardless of the age of the student. "
+        },
+        {
+            "Name": "Martin",
+            "Price": 6854,
+            "AirConditioned": "Yes",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Martin.jpg",
+            "Description": "Martin Hall is a suite-style building. Two rooms (four people) share a common living area, sinks and a toilet/shower room. Common spaces throughout the building offer plenty of space for residents to study, hang out or host events. The students of Martin create a community that’s fun, academic focused and a great place to call your Cyclone home."
+        },
+        {
+            "Name": "Oak",
+            "Price": 5178,
+            "AirConditioned": "No",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Oak.jpg",
+            "Description": "Part of the Oak-Elm community, Oak features classic college architecture and students dedicated to a successful Cyclone adventure. Conversations Dining is in the lower level and there’s air conditioned lounges, dens and parlors throughout the building – perfect for studying or hanging out with friends! Whether you’re looking for a study partner, goalie for your intramural soccer team, a mentor, role model or friend, you’ll find it all in Oak! Close to everything on campus makes Oak the ideal residence hall experience for you!"
+        },
+        {
+            "Name": "Roberts",
+            "Price": 5178,
+            "AirConditioned": "No",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Roberts.jpg",
+            "Description": "Roberts is part of the Birch-Welch-Roberts (BWR) community and is located in the heart of campus. Whether you’re looking for a study partner, goalie for your intramural soccer team, a mentor, role model or friend, you’ll find it all in BWR. Students here know how to balance fun with academics and they get to do it all in buildings that are close to everything and offer classic collegiate architecture."
+        },
+        {
+            "Name": "Wallace",
+            "Price": 4570,
+            "AirConditioned": "No",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Wallace.jpg",
+            "Description": "Looking for your own room in a close-knit community of older students? Wallace is for you! Rooms have been recently renovated with new flooring, paint, lighting and windows. Every floor has common space and a kitchenette equipped with an oven, sink and refrigerator. Live-in staff are here to help with anything you need. The community has an on-site fitness center, South Side Eats, a lot of community space (inside and outside) and plenty of parking! Plus, you’re steps from Campustown! Looking for a delicious hot meal, or a convenient, chilled grab-and-go lunch? We’ve got you covered for your busy schedule. Each meal features a main entrée and your choice of side selections. For those looking for breakfast options, selections are also available. You can utilize up to two dining center swipes per meal period at this location. Want to fuel up for the night with two hot meals? You got it! Need dinner and lunch for the next day, it’s available. Or dinner and breakfast for the morning to take with you to class – it’s all in one spot! All it takes to enjoy this service is a dining center swipe per meal.  Dining center meals are available with any meal plan option. Wallace features the lowest single room rates on campus, starting at $5588. You’re here to focus on class. We’ve got the rest covered!"
+        },
+        {
+            "Name": "Welch",
+            "Price": 5178,
+            "AirConditioned": "No",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Welch.jpg",
+            "Description": "Welch is part of the Birch-Welch-Roberts (BWR) community and is located in the heart of campus. Whether you’re looking for a study partner, goalie for your intramural soccer team, a mentor, role model or friend, you’ll find it all in BWR. Students here know how to balance fun with academics and they get to do it all in buildings that are close to everything and offer classic collegiate architecture."
+        },
+        {
+            "Name": "Willow",
+            "Price": 5588,
+            "AirConditioned": "Yes",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Willow.jpg",
+            "Description": "Maple and Larch are our neighbors and we share a three-level commons that has Seasons Dining Center, East Side Market, a game room, hall desk, computer lab and tons of hang out/study space. The main floor of our building has a large lounge and there’s a den on each floor. We’re close to Lied Rec, Hilton and Jack Trice – there’s always something to do!"
+        },
+        {
+            "Name": "Wilson",
+            "Price": 4570,
+            "AirConditioned": "No",
+            "OpenDuringWinterBreak": "Yes",
+            "Eligibility": "All",
+            "URL": "./images/Wilson.jpg",
+            "Description": "Rooms have been recently renovated with new flooring, paint, lighting and windows. Every floor has common space and a kitchenette equipped with an oven, sink and refrigerator. Live-in staff are here to help with anything you need. The community has an on-site fitness center, South Side Eats, a lot of community space (inside and outside) and plenty of parking! Plus, you’re steps from Campustown! Looking for a delicious hot meal, or a convenient, chilled grab-and-go lunch? We’ve got you covered for your busy schedule. Each meal features a main entrée and your choice of side selections. For those looking for breakfast options, selections are also available. You can utilize up to two dining center swipes per meal period at this location. Want to fuel up for the night with two hot meals? You got it! Need dinner and lunch for the next day, it’s available. Or dinner and breakfast for the morning to take with you to class – it’s all in one spot! All it takes to enjoy this service is a dining center swipe per meal.  Dining center meals are available with any meal plan option. You’re here to focus on class. We’ve got the rest covered!"
+        }
+    ]
+}
