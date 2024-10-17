@@ -46,16 +46,13 @@
         </div>
     </nav>
 
-
-    <div>
-        <!-- <img src="./images/campanile.jpg" style="width:100%"> -->
-    </div>
-
-    <div class="mx-auto" style="padding:60px; margin:auto; background-color: #C8102E; color:#F5F5F5; overflow: hidden; text-align:center;">
+    <!-- welcome message -->
+    <div class="mx-auto" style="padding:60px; margin:auto; background-color: #C8102E; color:#F5F5F5; overflow: hidden; text-align:center; border: 10px #F1BE48; border-style: dashed none;">
         <h1 id="welcome-msg" class="mx-auto" style="font-family: 'Merriweather', serif; font-size: 50px;">Welcome to the Iowa State University Roommate Portal!</h1>
     </div>
 
-    <div class="container-fluid" id="div-1" style="background-color: #F5F5F5; padding: 2em 5em; position: relative;"> 
+    <!-- div 1 -->
+    <div class="container-fluid" id="div-1" style="background-color: #F5F5F5; position: relative; "> 
         <div class="row mx-0 gx-3 justify-content-center">
             <div class="col-12 col-md-6 my-auto" id="div-1-texts">
                 <p class="mb-1"><strong>Iowa State University Roommate Portal</strong></p>
@@ -69,10 +66,69 @@
             </div>
         </div>
     </div>
-    
-    
-    
 
+    <!-- div 2 -->
+    <div class="container-fluid" id="div-2" style="background-color: white; position: relative;"> 
+        <div class="row mx-0 gx-4 justify-content-center">
+            <div class="col-12 col-md-6 my-auto" id="camp-img" style="text-align: center;">
+                <!-- object-fit: cover; allows the image to be cropped without distorting it -->
+                <img class="img-fluid" style="max-width: 546.4px; max-height: 364.71px; width: 100%; height: auto; object-fit: cover;" src="./images/collegeRoommateStory.jpg">
+            </div>
+            <div class="col-12 col-md-6 my-auto" id="div-1-texts">
+                <p class="mb-1"><strong>Here from one of our first users</strong></p>
+                <h1 style="color:#C8102E">Success Story</h1>
+                <blockquote class="blockquote mb-3">
+                    <p>"I used Iowa State Roommate Portal to find my roommate freshman year. We got along so well, and we still live together now that we are in our senior year here! I am so grateful this website helped me find her!" - Emily</p>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- div 3 -->
+    <div style="background-color: #F5F5F5; width: 100%; padding-bottom: 8em;">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade mx-auto my-2 py-5">
+            <div class="carousel-inner" id="carousel-inner-group">
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Features -->
+    <!-- <div style="background-color: #F5F5F5; width: 100%; padding-bottom: 8em;">
+        <div id="carouselExampleCaptions" class="carousel slide mx-auto my-2 py-5" style="max-width: 546.4px;">
+            <div class="carousel-indicators mx-auto">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            
+            <h2 class="mb-3" style="text-align: center;">Website Features</h2>
+            
+            <div class="carousel-inner" id="carousel-inner-group">
+                
+
+                
+            </div>
+    
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div> -->
+    
 
     <!-- footer -->
     <footer class="text-body-secondary py-5">
@@ -98,6 +154,7 @@
     </footer>
 
     <script src="./index.js"></script>
+    <script src="js/bootstrap.js"></script>
     
 </body>
 </html>

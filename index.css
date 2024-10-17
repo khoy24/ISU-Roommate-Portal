@@ -1,6 +1,27 @@
+/* inline CSS overrules external CSS, so need to move it in here if changing anything 
+off media queries that has a conflict in the inline css */
+
+#div-1{
+    padding: 2em 5em;
+}
+
+#div-2{
+    padding: 2em 5em;
+}
+
+.btn-outline-danger {
+    /* !important overrides all other conflicts */
+    /* background-color: #ebc774  !important; */
+    /* border-color: red; */
+    /* border-style: dashed; */
+    border-width: 3px;
+    font-weight: 700;
+    margin-right:.5em;
+}
+
+
+
 /* created this to align the image centered below the text when reaching a certain point*/
-
-
 @media only screen and (max-width: 767.9px) {
     #camp-img {
         padding-top: 2em;
@@ -16,6 +37,19 @@
     #welcome-msg {
         font-size: 10px;
     }
+}
+
+@media only screen and (min-width: 1272px) {
+    #div-1{
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+
+    #div-2{
+        padding-left: 7em;
+        padding-right: 10em;
+    }
+
 }
 
 
