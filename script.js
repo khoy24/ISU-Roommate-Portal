@@ -1,7 +1,6 @@
 let navbarToggler = document.querySelector('.navbar-toggler');
 let profileIcon = document.getElementById('p-icon');
 let profileText = document.getElementById('p-text');
-let click = 0;
 
 // checks to change profile vs icon when clicked
 navbarToggler.addEventListener('click', () => {
