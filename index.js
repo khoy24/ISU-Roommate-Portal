@@ -117,7 +117,16 @@ function addCarouselImages(data){
 } 
 
 
+// link to login/signup
+var toSignupButton = document.getElementById("toSignupButton");
+var toLoginButton = document.getElementById("toLoginButton");
 
+toSignupButton.addEventListener('click', ()=>{
+    document.location.href = "./profile.html";
+})
+toLoginButton.addEventListener('click', ()=>{
+    document.location.href = "./profile.html";
+})
 
 
 
