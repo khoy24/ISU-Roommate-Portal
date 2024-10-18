@@ -9,9 +9,13 @@
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
+    <style>
+        .prevent-select {
+            user-select: none;
+        }
+    </style>
 </head>
-<body>
+<body style="background-color: #f5f5f5;" class="prevent-select">
 
     <!-- navigation bar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -46,8 +50,46 @@
     </nav>
 
 
+    <div class="container">
+
+        <form id="QuizBody">
+                <!-- <legend style="font-size: 18px; padding: 0 10px;">When do you wake up?</legend>
+                <div>
+                    <input type="radio" id="wake6" name="wakeup" value="6:00 AM" />
+                    <label for="wake6">6:00 AM</label>
+                </div>
+                question, values, id, use i in loop for going through elements to create different IDs, label is same as value
+                <div>
+                    <input type="radio" id="wake8" name="wakeup" value="8:00 AM" />
+                    <label for="wake8">8:00 AM</label>
+                </div>
+                <div>
+                    <input type="radio" id="wake10" name="wakeup" value="10:00 AM" />
+                    <label for="wake10">10:00 AM</label>
+                </div>
+
+                <legend style="font-size: 18px; padding: 0 10px;">When do you go to sleep?</legend>
+                <div>
+                    <input type="radio" id="sleep8" name="sleep" value="8:00 PM" />
+                    <label for="sleep8">8:00 PM</label>
+                </div>
+                <div>
+                    <input type="radio" id="sleep10" name="sleep" value="10:00 PM" />
+                    <label for="sleep10">10:00 PM</label>
+                </div>
+                <div>
+                    <input type="radio" id="sleep12" name="sleep" value="12:00 AM" />
+                    <label for="sleep12">12:00 AM</label>
+                </div>
+                <div>
+                    <input type="radio" id="sleep2" name="sleep" value="2:00 AM" />
+                    <label for="sleep2">2:00 AM</label>
+                </div> -->
+        </form>
+    </div>
+
     <!-- footer -->
-    <footer class="text-body-secondary py-5">
+    <footer class="text-body-secondary py-5" style="background-color: white;">
         <div class="container">
             <img src="./myotherimages/isulogo-nobg.png" alt="Iowa State University Logo" style="height: 16px; margin-left: 3em;">
             <ul style="overflow: hidden; list-style-type: none; align-items: center; margin-bottom:0px; padding-bottom: 0px;">
@@ -70,6 +112,8 @@
     </footer>
 
     <script src="./index.js"></script>
-    
+    <script>
+        document.getElementById("QuizBody").addEventListener("load", getQuestions())
+    </script>
 </body>
 </html>

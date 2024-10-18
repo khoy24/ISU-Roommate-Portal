@@ -151,7 +151,7 @@
             "OpenDuringWinterBreak": "Yes",
             "Eligibility": "All",
             "URL": "./images/Wallace.jpg",
-            "Description": "Looking for your own room in a close-knit community of older students? Wallace is for you! Rooms have been recently renovated with new flooring, paint, lighting and windows. Every floor has common space and a kitchenette equipped with an oven, sink and refrigerator. Live-in staff are here to help with anything you need. The community has an on-site fitness center, South Side Eats, a lot of community space (inside and outside) and plenty of parking! Plus, you’re steps from Campustown! Looking for a delicious hot meal, or a convenient, chilled grab-and-go lunch? We’ve got you covered for your busy schedule. Each meal features a main entrée and your choice of side selections. For those looking for breakfast options, selections are also available. You can utilize up to two dining center swipes per meal period at this location. Want to fuel up for the night with two hot meals? You got it! Need dinner and lunch for the next day, it’s available. Or dinner and breakfast for the morning to take with you to class – it’s all in one spot! All it takes to enjoy this service is a dining center swipe per meal.  Dining center meals are available with any meal plan option. Wallace features the lowest single room rates on campus, starting at $5588. You’re here to focus on class. We’ve got the rest covered!"
+            "Description": "Looking for your own room in a close-knit community of older students? Wallace is for you! Rooms have been recently renovated with new flooring, paint, lighting and windows. Every floor has common space and a kitchenette equipped with an oven, sink and refrigerator. Live-in staff are here to help with anything you need. The community has an on-site fitness center, South Side Eats, a lot of community space (inside and outside) and plenty of parking! Plus, you’re steps from Campustown! Wallace features the lowest single room rates on campus, starting at $5588. You’re here to focus on class. We’ve got the rest covered!"
         },
         {
             "Name": "Welch",
@@ -178,7 +178,30 @@
             "OpenDuringWinterBreak": "Yes",
             "Eligibility": "All",
             "URL": "./images/Wilson.jpg",
-            "Description": "Rooms have been recently renovated with new flooring, paint, lighting and windows. Every floor has common space and a kitchenette equipped with an oven, sink and refrigerator. Live-in staff are here to help with anything you need. The community has an on-site fitness center, South Side Eats, a lot of community space (inside and outside) and plenty of parking! Plus, you’re steps from Campustown! Looking for a delicious hot meal, or a convenient, chilled grab-and-go lunch? We’ve got you covered for your busy schedule. Each meal features a main entrée and your choice of side selections. For those looking for breakfast options, selections are also available. You can utilize up to two dining center swipes per meal period at this location. Want to fuel up for the night with two hot meals? You got it! Need dinner and lunch for the next day, it’s available. Or dinner and breakfast for the morning to take with you to class – it’s all in one spot! All it takes to enjoy this service is a dining center swipe per meal.  Dining center meals are available with any meal plan option. You’re here to focus on class. We’ve got the rest covered!"
+            "Description": "Rooms have been recently renovated with new flooring, paint, lighting and windows. Every floor has common space and a kitchenette equipped with an oven, sink and refrigerator. Live-in staff are here to help with anything you need. The community has an on-site fitness center, South Side Eats, a lot of community space (inside and outside) and plenty of parking! Plus, you’re steps from Campustown!"
+        }
+    ],
+
+    "Questions": [
+        {
+            "Question": "When do you wake up?",
+            "Name": "wakeup",
+            "ID1": "wake6",
+            "Value1": "6:00 AM",
+            "ID2": "wake8",
+            "Value2": "8:00 AM",
+            "ID3": "wake10",
+            "Value3": "10:00 AM"
+        },
+        {
+            "Question": "When do you go to sleep?",
+            "Name": "sleep",
+            "ID1": "sleep8",
+            "Value1": "8:00 PM",
+            "ID2": "sleep10",
+            "Value2": "10:00 PM",
+            "ID3": "sleep12",
+            "Value3": "12:00 AM"
         }
     ]
 }

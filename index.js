@@ -178,3 +178,55 @@ function loadImages(Images, n) {
         Card.appendChild(AddCard);
     }
 }
+
+
+function getQuestions() {
+    fetch("./data.json")
+    .then(response => response.json())
+    .then(questions => loadQuestions(questions))
+    .catch(err => console.log("error: " + err))
+    // console.log(halls);
+}
+
+function loadQuestions(Questions) {
+    const questionArray = [];
+
+    Questions.Questions.forEach(question => {
+        questionArray.push(
+            question
+        )
+    });
+
+    console.log(questionArray);
+
+    var quizBody = document.getElementById("QuizBody");
+
+    for (var i = 0; i < questionArray.length; i++) {
+        let question = questionArray[i].Question;
+        let name = questionArray[i].Name;
+        let id1 = questionArray[i].ID1;
+        let value1 = questionArray[i].Value1;
+        let id2 = questionArray[i].ID2;
+        let value2 = questionArray[i].Value2;
+        let id3 = questionArray[i].ID3;
+        let value3 = questionArray[i].Value3;
+        let addQuestion = document.createElement("div");
+        addQuestion.innerHTML = `
+        <legend style="font-size: 18px; padding: 0 10px;">${question}</legend>
+        <div>
+        <input type="radio" id="${id1}" name="${name}" value="${value1}" />
+        <label for="${id1}">${value1}</label>
+        </div>
+        <div>
+        <input type="radio" id="${id2}" name="${name}" value="${value2}" />
+        <label for="${id2}">${value2}</label>
+        </div>
+        <div>
+        <input type="radio" id="${id3}" name="${name}" value="${value3}" />
+        <label for="${id3}">${value3}</label>
+        </div>
+        `;
+        quizBody.appendChild(addQuestion);
+    }
+
+}
