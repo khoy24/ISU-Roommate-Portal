@@ -128,22 +128,13 @@ function loadImages(Images, n) {
         <div class="card-body">
         <p class="card-text"> <strong>${name}</strong>, $${Price} <br>
         Air Conditioned: ${AirConditioned}<br>
-        Open for Winter Break: ${OpenDuringWinterBreak} <br>
-        <button id="${name}">button</button> 
-        <p style="display: none;">${description}</p>
+        Open for Winter Break: ${OpenDuringWinterBreak}
+        <div class="tooltip" style="float: right;">See More
+        <span class="tooltiptext">${description}</span>
+        </div>
         </div>
         </div>
         `;
         Card.appendChild(AddCard);
     }
-}
-
-if ($('body').is('.housing')){
-    let temp = document.querySelectorAll('.button');
-
-    temp.forEach((item) => {
-        item.addEventListener('click', () => {
-            console.log(item.id);
-        })
-    });
 }
