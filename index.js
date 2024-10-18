@@ -39,54 +39,94 @@ window.addEventListener('resize', () => {
 
 fetchData();
 function fetchData(){
-    //read the form
-    const b = document.getElementById("carousel-inner-group");
-    // b.addEventListener("submit",(event)=>{
-    // event.preventDefault(); // Prevent the form from submitting in the traditional way
     fetch('./home.json')
     .then(function (response) {
     return response.json();
     })
     .then(function (data) {
         console.log(data);
-        loadCarouselImages(data.homeimages);
+        carouselList = loadImagesIntoList(data.homeimages);
+        addCarouselImages(carouselList)
     })
     .catch(function (err) {
         console.log('error:' + err);
     });
 
-    // });
+};
+
+function loadImagesIntoList(data){
+    let list = [];
+    for (let i = 0; i < data.length; i++) {
+        list[i] = data[i];
+    }
+    return list;
 }
 
+var carouselGroup = document.getElementById("carousel-group")
+var prevButton = document.getElementById("control-prev");
+var nextButton = document.getElementById("control-next");
+var currentImage = 1;
 
-function loadCarouselImages(data){
+prevButton.addEventListener('click', () => {
+    if (currentImage===0){
+        currentImage = carouselList.length - 1;
+    } else {
+        currentImage -= 1;
+    }
+    addCarouselImages(carouselList);
+})
 
-    var carouselGroup = document.getElementById("carousel-inner-group");
+nextButton.addEventListener('click', () => {
+    if (currentImage===carouselList.length-1){
+        currentImage = 0;
+    } else {
+        currentImage += 1;
+    }
+    addCarouselImages(carouselList);
+    
+})
+
+function addCarouselImages(data){
+
     for (let i = 0; i < data.length; i++) {
-        console.log(data);
         let label = data[i].label;
         let path = data[i].path;
         let description = data[i].description;
         let alt = data[i].alt;
         let imageId = data[i].imageId;
-        // construct the HTML element
-        let AddCarouselItem = document.createElement("div");
-        if (i===0){
-            AddCarouselItem.classList.add("active");
-        }
-
-        AddCarouselItem.classList.add("carousel-item"); // Add Bootstrap class to the column
-        AddCarouselItem.classList.add("mx-auto");
-        AddCarouselItem.innerHTML = `
-            <img src=${path} class="d-block w-100" alt=${alt}>
-                <div class="carousel-caption d-none d-md-block">
-                <h5>${label}</h5>
-                <p>${description}</p>
+    
+        if (imageId === currentImage){
+            carouselGroup.removeChild(carouselGroup.firstChild);
+            carouselGroup.innerHTML=``;
+            let AddCarouselItem = document.createElement("div");      
+            AddCarouselItem.classList.add("div");
+            AddCarouselItem.classList.add("mx-auto");
+            AddCarouselItem.innerHTML = `
+                <div style="position: relative; max-width: 546.4px; max-height: 364.71px; margin: auto;">
+                    <img src="${path}" class="d-block w-100" alt="${alt}" style="width: 100%; height: auto; object-fit: cover;">
+                    <div class="carousel-text" id="carousel-text" style="position: absolute; width:90%; top: 80%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white;">
+                        <h5>${label}</h5>
+                        <p>${description}</p>
+                    </div>
                 </div>
             `;
-        carouselGroup.appendChild(AddCarouselItem);
-    } 
+        
+            carouselGroup.appendChild(AddCarouselItem);
+        }
+    }
 } 
+
+
+
+
+
+
+
+
+
+
+
+
 
 function getHalls() {
     fetch("./data.json")
