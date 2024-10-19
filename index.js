@@ -214,7 +214,7 @@ function loadQuestions(Questions) {
         let value3 = questionArray[i].Value3;
         let addQuestion = document.createElement("div");
         addQuestion.innerHTML = `
-        <legend style="font-size: 18px; padding: 0 10px;">${question}</legend>
+        <legend style="font-size: 18px; padding: 0 10px; margin-top: 30px;">${question}</legend>
         <div>
         <input type="radio" id="${id1}" name="${name}" value="${value1}" />
         <label for="${id1}">${value1}</label>

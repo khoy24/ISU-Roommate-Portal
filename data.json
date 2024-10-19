@@ -202,6 +202,76 @@
             "Value2": "10:00 PM",
             "ID3": "sleep12",
             "Value3": "12:00 AM"
+        }, 
+        {
+            "Question": "How do you like to spend your weekends?",
+            "Name": "weekends",
+            "ID1": "weekend1",
+            "Value1": "Going out with friends and exploring the city",
+            "ID2": "weekend2",
+            "Value2": "Staying in, binge-watching shows, and relaxing",
+            "ID3": "weekend3",
+            "Value3": "A balance between social time and downtime"
+        }, 
+        {
+            "Question": "What's your preferred level of cleanliness in a shared space?",
+            "Name": "cleanliness",
+            "ID1": "clean1",
+            "Value1": "Super clean, everything where it should be",
+            "ID2": "clean2",
+            "Value2": "A bit messy, but nothing too chaotic",
+            "ID3": "clean3",
+            "Value3": "As long as it's manageable, I can live with it"
+        }, 
+        {
+            "Question": "How would you handle disagreements",
+            "Name": "disagreements",
+            "ID1": "disagreements1",
+            "Value1": "Address it immediately and openly",
+            "ID2": "disagreements2",
+            "Value2": "Avoid arguments and hope it resolves itself",
+            "ID3": "disagreements3",
+            "Value3": "DIscuss it calmly when the time feels right"
+        }, 
+        {
+            "Question": "How often do you have friends over?",
+            "Name": "friends",
+            "ID1": "friends1",
+            "Value1": "All the time",
+            "ID2": "friends2",
+            "Value2": "Occasionally, but not too often",
+            "ID3": "friends3",
+            "Value3": "It depends on the week and my mood"
+        }, 
+        {
+            "Question": "How would you prefer to share food/supplies?",
+            "Name": "sharing",
+            "ID1": "sharing1",
+            "Value1": "I'd prefer to split everything",
+            "ID2": "sharing2",
+            "Value2": "I prefer to keep everything seperate",
+            "ID3": "sharing3",
+            "Value3": "Only certain items"
+        }, 
+        {
+            "Question": "What level of communication should you have with your roommate?",
+            "Name": "communication",
+            "ID1": "communication1",
+            "Value1": "Daily check-ins",
+            "ID2": "communication2",
+            "Value2": "Whenever it happens",
+            "ID3": "communication3",
+            "Value3": "I prefer my solitude"
+        }, 
+        {
+            "Question": "How much noise is okay while studying",
+            "Name": "studyNoise",
+            "ID1": "studyNoise1",
+            "Value1": "I prefer complete silence",
+            "ID2": "studyNoise2",
+            "Value2": "a little noise is okay, but not too much",
+            "ID3": "studyNoise3",
+            "Value3": "I'm fine with anything"
         }
     ]
 }
