@@ -1,0 +1,35 @@
+{
+    "users": [
+        {
+            "userId": 0,
+            "firstname":"Kaitlyn",
+            "lastname":"Hoyme",
+            "username": "khoyme",
+            "email": "khoyme@iastate.edu",
+            "password": "password",
+            "profilePhoto":"./images/collegeStudent.jpg",
+            "bio":"I am a junior at Iowa State majoring in computer science. I like to stay busy, whether that's with schoolwork or hanging out with friends."
+        },
+        {
+            "userId": 1,
+            "firstname":"Christopher",
+            "lastname":"Moseley",
+            "username": "moseleyc",
+            "email": "moseleyc@iastate.edu",
+            "password": "password",
+            "profilePhoto":"./images/collegeStudent.jpg",
+            "bio":"This is my bio"
+        },
+        {
+            "userId": 2,
+            "firstname":"Beth",
+            "lastname":"Buckets",
+            "username": "beth",
+            "email": "bbb@iastate.edu",
+            "password": "bbrules",
+            "profilePhoto":"./images/collegeStudent.jpg",
+            "bio":"Beth's bio"
+        }
+
+    ]
+}
