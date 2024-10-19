@@ -23,3 +23,9 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+@media only screen and (max-width: 991.9px) {
+  #aboutmetext {
+    text-align:center !important;
+  }
+}

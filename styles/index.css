@@ -11,9 +11,6 @@ off media queries that has a conflict in the inline css */
 
 .btn-outline-danger {
     /* !important overrides all other conflicts */
-    /* background-color: #ebc774  !important; */
-    /* border-color: red; */
-    /* border-style: dashed; */
     border-width: 3px;
     font-weight: 700;
     margin-right:.5em;
