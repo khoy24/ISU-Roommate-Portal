@@ -44,7 +44,6 @@ function fetchData(){
     return response.json();
     })
     .then(function (data) {
-        console.log(data);
         carouselList = loadImagesIntoList(data.homeimages);
         addCarouselImages(carouselList)
     })
@@ -127,12 +126,6 @@ toSignupButton.addEventListener('click', ()=>{
 toLoginButton.addEventListener('click', ()=>{
     document.location.href = "./profile.html";
 })
-
-
-
-
-
-
 
 
 
