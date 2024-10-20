@@ -166,15 +166,15 @@ function loadImages(Images, n) {
         AddCard.classList.add("col");
         AddCard.innerHTML = `
         <div class="card shadow-sm">
-        <img src=${URL} class="card-img-top" alt="..."></img>
-        <div class="card-body">
-        <p class="card-text"> <strong>${name}</strong>, $${Price} <br>
-        Air Conditioned: ${AirConditioned}<br>
-        Open for Winter Break: ${OpenDuringWinterBreak}
-        <div class="tooltip" style="float: right;">See More
-        <span class="tooltiptext">${description}</span>
-        </div>
-        </div>
+            <img src=${URL} class="card-img-top" alt="..."></img>
+            <div class="card-body">
+                <p class="card-text"> <strong>${name}</strong>, $${Price} <br>
+                Air Conditioned: ${AirConditioned}<br>
+                Open for Winter Break: ${OpenDuringWinterBreak}
+                <div class="tooltip" style="float: right;">See More
+                    <span class="tooltiptext">${description}</span>
+                </div>
+            </div>
         </div>
         `;
         Card.appendChild(AddCard);
@@ -187,7 +187,6 @@ function getQuestions() {
     .then(response => response.json())
     .then(questions => loadQuestions(questions))
     .catch(err => console.log("error: " + err))
-    // console.log(halls);
 }
 
 function loadQuestions(Questions) {
@@ -212,23 +211,51 @@ function loadQuestions(Questions) {
         let value2 = questionArray[i].Value2;
         let id3 = questionArray[i].ID3;
         let value3 = questionArray[i].Value3;
+        let url = questionArray[i].URL;
         let addQuestion = document.createElement("div");
-        addQuestion.innerHTML = `
-        <legend style="font-size: 18px; padding: 0 10px; margin-top: 30px;">${question}</legend>
-        <div>
-        <input type="radio" id="${id1}" name="${name}" value="${value1}" />
-        <label for="${id1}">${value1}</label>
-        </div>
-        <div>
-        <input type="radio" id="${id2}" name="${name}" value="${value2}" />
-        <label for="${id2}">${value2}</label>
-        </div>
-        <div>
-        <input type="radio" id="${id3}" name="${name}" value="${value3}" />
-        <label for="${id3}">${value3}</label>
-        </div>
-        `;
+        if (i < questionArray.length-1) {
+            addQuestion.innerHTML = `
+            <div class="row" style="margin-top: 25px;">
+                <div class="column">
+                    <img src="${url}" style="width: 100%; border: 3px solid #C8102E; border-radius: 15px;">
+                </div>
+                <div class="column">
+                    <legend style="font-size: 30px; padding: 0 10px;"><strong>${question}</strong></legend>
+                    <div>
+                        <label for="${id1}" style="font-size: 25px;"><input type="radio" id="${id1}" name="${name}" value="${value1}" /> ${value1}</label>
+                    </div>
+                    <div>
+                        <label for="${id2}" style="font-size: 25px;"><input type="radio" id="${id2}" name="${name}" value="${value2}" /> ${value2}</label>
+                    </div>
+                    <div>
+                        <label for="${id3}" style="font-size: 25px;"><input type="radio" id="${id3}" name="${name}" value="${value3}" /> ${value3}</label>
+                    </div>
+                </div>
+            </div>
+            `;
+            quizBody.appendChild(addQuestion);
+        } else {
+            addQuestion.innerHTML = `
+            <div class="row" style="margin-top: 25px; margin-bottom: 5px;">
+                <div class="column">
+                    <img src="${url}" style="width: 100%; border: 3px solid #C8102E; border-radius: 15px;">
+                </div>
+                <div class="column">
+                    <legend style="font-size: 30px; padding: 0 10px;"><strong>${question}</strong></legend>
+                    <div>
+                        <label for="${id1}" style="font-size: 25px;"><input type="radio" id="${id1}" name="${name}" value="${value1}" /> ${value1}</label>
+                    </div>
+                    <div>
+                        <label for="${id2}" style="font-size: 25px;"><input type="radio" id="${id2}" name="${name}" value="${value2}" /> ${value2}</label>
+                    </div>
+                    <div>
+                        <label for="${id3}" style="font-size: 25px;"><input type="radio" id="${id3}" name="${name}" value="${value3}" /> ${value3}</label>
+                    </div>
+                </div>
+            </div>
+            `;
         quizBody.appendChild(addQuestion);
+        }
     }
 
 }
