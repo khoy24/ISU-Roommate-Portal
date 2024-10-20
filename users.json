@@ -7,7 +7,10 @@
             "username": "khoyme",
             "email": "khoyme@iastate.edu",
             "password": "password",
-            "profilePhoto":"./images/collegeStudent.jpg",
+            "yearInSchool": "junior",
+            "profilePhoto":"./images/annoyedcat.png",
+            "profilePhotoAlt":"a white cat with a gray face and blue eyes, staring straight ahead with an annoyed expression.",
+            "galleryImages":[ ["./images/basketball.jpg", "I frequently play basketball, baseball, football, and volleyball with my friends.", "a basketball about to land in the hoop."],["./images/studying.jpg", "My study setup", "a notebook neatly placed on a table with pencils."],["./images/nintendoswitch.jpg","I love playing games with friends on my switch, wii, and xbox.", "a nintendo switch with mario kart playing"]],
             "bio":"I am a junior at Iowa State majoring in computer science. I like to stay busy, whether that's with schoolwork or hanging out with friends."
         },
         {
@@ -17,8 +20,11 @@
             "username": "moseleyc",
             "email": "moseleyc@iastate.edu",
             "password": "password",
-            "profilePhoto":"./images/collegeStudent.jpg",
-            "bio":"This is my bio"
+            "yearInSchool":"junior",
+            "profilePhoto":"./images/curiouscat.png",
+            "profilePhotoAlt":"a brown cat with a white muzzle and yellow eyes, looking intently at the camera.",
+            "galleryImages":[ ["./images/mountainbiking.jpg", "I love mountain biking", "A man mountain biking in a forest."],["./images/pcgamer.jpg", "I play a lot of games online with my friends", "A photo of a pc setup with two monitors and a glowing keyboard on a desk in the dark."],["./images/gym.jpg", "I also like going to the gym", "A photo of weights on the floor of an empty gym with more workout equipment in the background."]],
+            "bio":"Hi my name is Chris. I am a junior studying software engineering, and I'm looking forward to meeting some potential roommates for my next year at Iowa State."
         },
         {
             "userId": 2,
@@ -27,8 +33,11 @@
             "username": "beth",
             "email": "bbb@iastate.edu",
             "password": "bbrules",
-            "profilePhoto":"./images/collegeStudent.jpg",
-            "bio":"Beth's bio"
+            "yearInSchool": "incoming freshman",
+            "profilePhoto":"./images/bethcat.png",
+            "profilePhotoAlt":"a pensive white cat with a brown tabbied forehead and yellow eyes, looking to the left.",
+            "galleryImages":[ ["./images/painting.jpg", "I love to paint and have been doing art since I was a kid!", "a paintbrush on a pallette mixing brown and red paint."],["./images/knitting.jpg", "I also love to knit, and recently made a gray sweater for the upcoming fall season!", "Picture of two knitting needles on a gray and white blanket, with rolls of pink and yellow yarn on the floor next to it."],["./images/microphone.jpg", "I also love to sing and listen to music. My friends and I just started a band.", "I photo of a microphone in darker lighting with bright lights."]],
+            "bio":"Hi my name's Beth! I'm an Arts and Design major here. I consider myself a very creative person and I'm looking for a roommate who will be my best friend and who shares similar interests!"
         }
 
     ]
