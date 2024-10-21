@@ -219,7 +219,7 @@ function loadQuestions(Questions) {
                 <div class="column">
                     <img src="${url}" style="width: 100%; border: 3px solid #C8102E; border-radius: 15px;">
                 </div>
-                <div class="column">
+                <div class="column" style="padding-left:20px;">
                     <legend style="font-size: 30px; padding: 0 10px;"><strong>${question}</strong></legend>
                     <div>
                         <label for="${id1}" style="font-size: 25px;"><input type="radio" id="${id1}" name="${name}" value="${value1}" /> ${value1}</label>
@@ -240,7 +240,7 @@ function loadQuestions(Questions) {
                 <div class="column">
                     <img src="${url}" style="width: 100%; border: 3px solid #C8102E; border-radius: 15px;">
                 </div>
-                <div class="column">
+                <div class="column" style="padding-left:20px;">
                     <legend style="font-size: 30px; padding: 0 10px;"><strong>${question}</strong></legend>
                     <div>
                         <label for="${id1}" style="font-size: 25px;"><input type="radio" id="${id1}" name="${name}" value="${value1}" /> ${value1}</label>
